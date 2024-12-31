@@ -1,7 +1,7 @@
 /*
  * @Author: linian
  * @Date: 2024-12-02 20:32:20
- * @LastEditTime: 2024-12-13 19:52:27
+ * @LastEditTime: 2024-12-23 18:25:13
  * @LastEditors: linian
  * @Description: 
  */
@@ -24,5 +24,5 @@ document.getElementById('app').innerHTML = `
   <p>Welcome to your new project!</p>
   <p>Welcome to your new project!</p>
   <span class="iconfont icon-xuehua"></span>
-  <img src="${img}"/>
+  <input type='file'/>
 `;

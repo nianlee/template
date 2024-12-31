@@ -1,7 +1,7 @@
 /*
  * @Author: linian
  * @Date: 2024-12-11 13:56:11
- * @LastEditTime: 2024-12-13 19:17:37
+ * @LastEditTime: 2024-12-23 16:35:46
  * @LastEditors: linian
  * @Description: dev config
  */
@@ -17,7 +17,7 @@ module.exports = merge(common, {
     index: ['./src/index.js', hotMiddlewareScript]
   }, // 入口文件
   mode: 'development',
-  devtool: 'inline-source-map', // 文件id放在文件内容中
+  devtool: 'inline-source-map', // moduleId放在文件内容中
   module: {
     rules: [
       {

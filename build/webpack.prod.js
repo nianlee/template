@@ -1,7 +1,7 @@
 /*
  * @Author: linian
  * @Date: 2024-12-11 13:56:11
- * @LastEditTime: 2024-12-13 19:17:53
+ * @LastEditTime: 2024-12-23 16:39:50
  * @LastEditors: linian
  * @Description: dev config
  */
@@ -14,7 +14,6 @@ module.exports = merge(common, {
     index: ['./src/index.js']
   }, // 入口文件
   mode: 'production',
-  devtool: 'inline-source-map',
   module: {
     rules: [
       {
@@ -27,6 +26,6 @@ module.exports = merge(common, {
     ]
   },
   plugins: [
-    new MiniCssExtractPlugin()
+    new MiniCssExtractPlugin()  // 分离css 文件
   ],
 });
